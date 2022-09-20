@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "William",
+      "lastName": "Vasilev",
+      "email": "williamvasilev@gmail.com",
+      "password": "12345",
+      "id": "43530751-2be6-4c8d-81df-6008afb6060b"
+    },
+    {
+      "firstName": "Brenda",
+      "lastName": "Mullally",
+      "email": "bm@wit.ie",
+      "password": "Secret1",
+      "id": "dfca38ab-6f16-434e-9b33-5b19138f84a7"
+    },
+    {
+      "firstName": "william",
+      "lastName": "vasilev",
+      "email": "williamvasilev@gmail.com",
+      "password": "fgfg",
+      "id": "3f606596-067a-4782-b580-e5537a04e46b"
+    },
+    {
+      "firstName": "william",
+      "lastName": "vasilev",
+      "email": "williamvasilev@gmail.com",
+      "password": "11111111",
+      "id": "02e8af47-a711-4569-8c21-51be1ce64752"
+    },
+    {
+      "firstName": "william",
+      "lastName": "vasilev",
+      "email": "williamvasilev2@gmail.com",
+      "password": "William32133",
+      "id": "c45e4602-b5a6-4a54-a718-6e3c5484cc0e"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{{> menu}}
+
+<section class="ui two column grid segment">
+  <div class="ui column">
+    <h1 class="ui header">
+  Welcome to the Games App, {{fullname}}!
+</h1>
+      <p>
+        This app will allow users to create and maintain a collection of games.
+      </p>
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+        <button class="ui green button" onclick="alert('Thanks! You\'re okay too')">
+          Like it? <i class="thumbs up icon"></i>
+        </button>
+        <button class="ui red button" onclick="welcomeUser()">
+          Who are you? <i class="user icon"></i>
+        </button>
+      </div>
+
+      <div id="readmore" class="ui message">
+        <p>
+          This app shows the different types of Game clients and the type of games those clients provide.
+        </p>  
+      </div>
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+    <div class="ui divider"></div>
+
+<h3 class="ui center aligned header">The Games App now contains:</h3>
+<div class="ui two statistics">
+    <div class="ui huge statistic">
+        <div class="value">
+            {{totalFolders}}
+        </div>
+        <div class="label">
+            Folders
+        </div>
+    </div>
+    <div class="ui huge statistic">
+        <div class="value">
+            {{totalGames}}
+        </div>
+        <div class="label">
+            Games
+        </div>
+    </div>
+</div>
+  </div>
+  
+  
+  <div class="ui column">
+    <div class="ui grid">
+      <div class="ui eight wide column">
+        <img class="ui circular image" src="https://cdn.glitch.com/6bbbbc7b-f608-41a7-8d98-f70b732e51ee%2Fminecraft.jpg?v=1615918893272">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui circular image" src="https://cdn.glitch.com/6bbbbc7b-f608-41a7-8d98-f70b732e51ee%2FCSGO.jpg?v=1615918902061">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui circular image" src="https://cdn.glitch.com/6bbbbc7b-f608-41a7-8d98-f70b732e51ee%2Fvalorant.jpg?v=1615918898642">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui circular image" src="https://cdn.glitch.com/6bbbbc7b-f608-41a7-8d98-f70b732e51ee%2Fleague-of-legends.jpg?v=1615918905683">
+      </div>
+    </div>
+  </div>
+</section>

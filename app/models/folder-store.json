@@ -1,0 +1,39 @@
+{
+  "FolderCollection": [
+    {
+      "id": "4a1ea4ec-303e-4b13-bd98-a6b04877e093",
+      "title": "test",
+      "games": []
+    }
+  ],
+  "folderCollection": [
+    {
+      "id": "4997cbaa-5e51-48b7-a1d1-16c78b5fd627",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "games",
+      "games": [
+        {
+          "id": "613df677-257c-41f3-a9d4-b7ac1336ca9a",
+          "title": "csgo",
+          "developer": "valve",
+          "genre": "fps"
+        }
+      ]
+    },
+    {
+      "id": "0eb585e2-5ca3-4dcc-9d46-f4a1ee6618b3",
+      "userid": "dfca38ab-6f16-434e-9b33-5b19138f84a7",
+      "title": "d",
+      "picture": "http://res.cloudinary.com/djicvn7td/image/upload/v1620129211/fyw0tevg4lensrhtpk2o.png",
+      "date": "2021-05-04T11:53:30.787Z",
+      "games": [
+        {
+          "id": "0695c011-ce8b-49a3-b4b8-a356be0ee306",
+          "title": "D",
+          "developer": "D",
+          "genre": "First person shooters"
+        }
+      ]
+    }
+  ]
+}

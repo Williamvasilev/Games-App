@@ -1,0 +1,29 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  
+  background-image: url('https://cdn.glitch.com/6bbbbc7b-f608-41a7-8d98-f70b732e51ee%2Fgames%20poster.jpg?v=1616257472880'); ;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#readmore {
+  display: none;
+}
+
+#welcomeuser {
+  display: none;
+}
+
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}

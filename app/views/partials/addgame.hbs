@@ -1,0 +1,24 @@
+<form class="ui stacked segment form" action="/folder/{{folder.id}}/addgame" method="POST">
+  <div class="three fields">
+    <div class="field">
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required>
+    </div>
+    <div class="field">
+      <label>Developer</label>
+      <input placeholder="Developer" type="text" name="developer" required>
+    </div>
+    <div class="field">
+      <label>Genre</label>
+      <select name="genre" id="genre">
+    <option value ="First person shooter">First person shooter</option>
+    <option value ="Sandbox">Sandbox</option>
+    <option value ="Multiplayer online battle arena (MOBA)">Multiplayer online battle arena (MOBA)</option>
+    <option value ="Role-playing">Role-playing</option>
+    <option value ="Action-adventure">Action-adventure</option>
+</select>
+    </div>
+    
+  </div>
+  <button class="ui blue submit button">Add Game</button>
+</form>
